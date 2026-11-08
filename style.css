@@ -8,6 +8,13 @@
     background-color: #f5f5f5;
 }
 
+.pagina-daniel header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
 /*------------------------------------*/
 /*Giulian*/
 
