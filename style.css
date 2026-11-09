@@ -29,6 +29,20 @@ hr.linha-horizontal {
     width: 100%;
 }
 
+@media (max-width: 600px) {
+
+    .pagina-guilherme {
+        padding: 15px;
+    }
+
+    .pagina-guilherme section header {
+        padding: 20px;
+    }
+
+    .pagina-guilherme h1 {
+        font-size: 25px;
+    }
+}
 
 /*------------------------------------*/
 /*Gustavo*/
