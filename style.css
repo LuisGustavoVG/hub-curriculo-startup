@@ -22,6 +22,12 @@
     color: #105166;
 }
 
+hr.linha-horizontal {
+    border: none;
+    height: 0px;
+    background-color: #8fb0dc;
+    width: 100%;
+}
 
 
 /*------------------------------------*/
