@@ -118,7 +118,46 @@
 
 /*------------------------------------*/
 /*Kelly*/
+.pagina-kelly{
+    background-color: #f6eef8;
+    font-family: Arial, sans-serif;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+}
 
+.pagina-kelly h1{
+    color: #7b2d8e;
+    font-size: 32px;
+    text-align: center;
+}
+
+.pagina-kelly h2{
+    color: #7b2d8e;
+    font-size: 22px;
+    border-bottom: 2px solid #e2c6ea;
+    padding-bottom: 10px;
+}
+
+.pagina-kelly li {
+    color: #444444;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.pagina-kelly a {
+    display: inline-block;
+    background-color: #7b2d8e;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.pagina-kelly a:hover {
+    background-color: #5a1f69; 
+}
 
 /*------------------------------------*/
 /*Matheus*/
