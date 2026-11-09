@@ -9,6 +9,10 @@
     --cor-principal: #1f4e79;
 }
 
+.pagina-daniel h2 {
+    color: var(--cor-principal);
+}
+
 .pagina-daniel header nav ul {
     display: flex;
     flex-wrap: wrap;
