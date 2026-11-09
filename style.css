@@ -8,6 +8,110 @@
 
 /*------------------------------------*/
 /*Guilherme*/
+.Nome1 {
+    background-color: #dceefa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Blocos brancos */
+
+.endereço {
+    max-width: 850px;
+    margin: auto;
+}
+
+/* Cada seção do currículo */
+
+. section,
+. header {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Nome */
+
+.pagina-gustavo h1 {
+    color: #176b87;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Títulos das seções */
+
+.pagina-gustavo h2 {
+    color: #176b87;
+    font-size: 22px;
+    border-bottom: 2px solid #dceefa;
+    padding-bottom: 10px;
+}
+
+/* Textos */
+
+.pagina-gustavo p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Listas */
+
+.pagina-gustavo li {
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+/* Links */
+
+.pagina-gustavo a {
+    color: #176b87;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pagina-gustavo a:hover {
+    color: #0b4055;
+    text-decoration: underline;
+}
+
+/* Botão de voltar */
+
+.pagina-gustavo .voltar {
+    display: inline-block;
+    background-color: #176b87;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.pagina-gustavo .voltar:hover {
+    background-color: #0b4055;
+    text-decoration: none;
+}
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+
+    .pagina-gustavo {
+        padding: 15px;
+    }
+
+    .pagina-gustavo section,
+    .pagina-gustavo header {
+        padding: 20px;
+    }
+
+    .pagina-gustavo h1 {
+        font-size: 25px;
+    }
+}
 
 /*------------------------------------*/
 /*Gustavo*/
