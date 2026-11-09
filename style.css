@@ -6,6 +6,7 @@
 .pagina-daniel {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
+    --cor-principal: #1f4e79;
 }
 
 .pagina-daniel header nav ul {
