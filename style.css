@@ -20,6 +20,18 @@
     list-style: none;
     padding: 0;
 }
+
+.pagina-daniel nav {
+    background-color: var(--cor-principal);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.pagina-daniel nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 /*------------------------------------*/
 /*Giulian*/
 
