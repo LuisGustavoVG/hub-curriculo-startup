@@ -3,10 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currículo - Matheus Oliveira</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #28a745;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            color: #28a745;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            color: #28a745;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .highlight {
+            background-color: #e8f5e9;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 0 4px 4px 0;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 0;
+            list-style: none;
+        }
+        .skills-list li {
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            border: 1px solid #c8e6c9;
+        }
+    </style>
 </head>
-<link rel="stylesheet" href="../style.css">
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Matheus Oliveira</h1>
+            <p>Em busca da Primeira Oportunidade Profissional</p>
+            <p>Email: matheus.oliveira@exemplo.com | Telefone: (11) 99999-9999</p>
+            <p>Cidade - Estado | Disponibilidade Imediata</p>
+        </header>
+
+        <div class="section">
+            <div class="section-title">Objetivo Profissional</div>
+            <div class="highlight">
+                <p><strong>Buscando minha primeira experiência de trabalho.</strong> Possuo total flexibilidade de horário e muita disposição para trabalhar duro, aprender novas funções e contribuir positivamente com os resultados e com o crescimento da equipe.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Principais Qualidades & Diferenciais</div>
+            <ul class="skills-list">
+                <li>Grande Disposição para Trabalhar</li>
+                <li>Flexibilidade Total de Horários</li>
+                <li>Facilidade de Aprendizado</li>
+                <li>Pontualidade e Compromisso</li>
+                <li>Trabalho em Equipe</li>
+                <li>Adaptabilidade</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Formação Acadêmica</div>
+            <p><strong>Ensino Médio (Completo / em Andamento)</strong></p>
+            <p style="color: #666; font-style: italic;">Nome da Escola / Instituição</p>
+        </div>
+    </div>
 </body>
 </html>
+"""
