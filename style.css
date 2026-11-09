@@ -4,33 +4,33 @@
 /*Daniel*/
 /*Daniel*/
 .pagina-daniel {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    --cor-principal: #1f4e79;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  --cor-principal: #1f4e79;
 }
 
 .pagina-daniel h2 {
-    color: var(--cor-principal);
+  color: var(--cor-principal);
 }
 
 .pagina-daniel header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
 }
 
 .pagina-daniel nav {
-    background-color: var(--cor-principal);
-    padding: 10px;
-    border-radius: 8px;
+  background-color: var(--cor-principal);
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .pagina-daniel nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 /*------------------------------------*/
 /*Giulian*/
