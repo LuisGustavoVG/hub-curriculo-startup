@@ -11,7 +11,11 @@
 .pagina-guilherme {
     background-color: #e7f8fd;
 }
-
+.pagina-guilherme header{
+    background-color: #b2d5e1;
+    height: 300px;
+    width: 1;
+}
 .pagina-guilherme h1{
     background-color: #9eb6d5;
     height: 50px;
