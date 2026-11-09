@@ -8,6 +8,10 @@
   --cor-principal: #1f4e79;
 }
 
+.pagina-daniel h1 {
+  color: var(--cor-principal);
+  text-align: center;
+}
 .pagina-daniel h2 {
   color: var(--cor-principal);
 }
