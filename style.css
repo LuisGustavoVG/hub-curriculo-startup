@@ -46,6 +46,10 @@
   font-weight: bold;
 }
 
+.pagina-daniel nav a:hover {
+  text-decoration: underline;
+}
+
 .pagina-daniel footer{
   text-align: center;
   padding: 20px;
