@@ -9,21 +9,21 @@
 /*------------------------------------*/
 /*Guilherme*/
 .pagina-guilherme {
-    background-color: #deecf0;
+    background-color: #EAF0F6;
 }
 .pagina-guilherme header{
-    background-color: #afd8eb;
-    height: 300px;
-    width: 1;
+    background-color: #d3e1f0;
+    height: 220px;
+    
 }
 .pagina-guilherme h1{
-    background-color: #a6c6eb;
+    background-color: #9cc4e9;
     height: 50px;
-    color: #012238;
+    color: #172B4D;
 }
 
 .pagina-guilherme h2{
-    color: #012238;
+    color: #172B4D;
 }
 
 hr.linha-horizontal {
