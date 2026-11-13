@@ -364,13 +364,13 @@ hr.linha-horizontal {
 /*------------------------------------*/
 /*Samuel*/
 
-/*Escopo*/
+    /*Escopo Pagina*/
+
 .escopo-samuel {
     background-color: #e1eff4;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0px;
-
 }
+
 
 .escopo-samuel h1{
     text-align: center;
@@ -383,94 +383,66 @@ hr.linha-horizontal {
     font-size: 20pt ;
 }
 
-#titulo-cu{
+        /* Titulo */
+
+.escopo-samuel #titulo-cu{
     text-align: center;
-    
     font-size: 20px;
+    background-color: transparent;
+    color: #000000;
+    padding: 0;
+    box-shadow: none;
 }
 
     /* Cabeçalho */
 
-#cabecalho {
-display: flex;
-justify-content: space-between;
-
-font-size: 12pt;
-
-margin: 50px auto;
-
-background-color: #c4e8f6;
-border:2px solid #8fd9f2;
-border-radius: 20px;
-
-
-width: 75%;
-padding: 30px;
+.escopo-samuel #cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 50px auto;
+    padding: 30px;
+    font-size: 12pt;
+    background-color: #c4e8f6;
+    border: 2px solid #8fd9f2;
+    border-radius: 20px;
 }
 
-   /* Formação */
+   /* Formação, Cursos, Habilidades e Outros */
 
-#formacao-samuel {
+.escopo-samuel #formacao-samuel,
+.escopo-samuel #cursos-samuel,
+.escopo-samuel #skills-samuel,
+.escopo-samuel #outros-samuel {
     margin: 70px auto;    
     background-color: #c4e8f6;
-
+    padding: 25px;
     font-size: 12pt;
-
     border:2px solid #8fd9f2;
     border-radius: 20px;
     width: 70%;
 }
 
-#formacao-samuel li {
-margin-bottom: 10px;
+    /* Listas */
+ 
+ .escopo-samuel ul {
+    padding-left: 20px;
+ }   
 
+    /* Espaços entre as linas */
+
+.escopo-samuel #formacao-samuel li {
+    margin-bottom: 10px;
 }
 
-/* Cursos */
-
-#cursos-samuel {
-    margin: 70px auto;    
-    background-color: #c4e8f6;
-
-    font-size: 12pt;
-
-    border:2px solid #8fd9f2;
-    border-radius: 20px;
-    width: 70%;
+.escopo-samuel #cursos-samuel,
+.escopo-samuel #outros-samuel {
     line-height: 40px;
-
 }
 
-   /* Habilidades */
-
-#skills-samuel {
-    margin: 70px auto;    
-    background-color: #c4e8f6;
-
-    font-size: 12pt;
+.escopo-samuel #skills-samuel {
     line-height: 30px;
-    
-    border:2px solid #8fd9f2;
-    border-radius: 20px;
-
-    width: 70%;
 }
-
-   /* Outros */
-
-   #outros-samuel {
-
-    margin: 70px auto;    
-    background-color: #c4e8f6;
-
-    font-size: 12pt;
-    line-height: 40px;
-    
-    border:2px solid #8fd9f2;
-    border-radius: 20px;
-
-    width: 70%;
-   }
 
    /* Rodape */
 
