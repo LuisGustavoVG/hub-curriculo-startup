@@ -114,6 +114,45 @@ footer {
 
 /*------------------------------------*/
 /*Guilherme*/
+.pagina-guilherme {
+    background-color: #EAF0F6;
+}
+.pagina-guilherme header{
+    background-color: #d3e1f0;
+    height: 220px;
+    
+}
+.pagina-guilherme h1{
+    background-color: #9cc4e9;
+    height: 50px;
+    color: #172B4D;
+}
+
+.pagina-guilherme h2{
+    color: #172B4D;
+}
+
+hr.linha-horizontal {
+    border: none;
+    height: 0px;
+    background-color: #90b6eb;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+
+    .pagina-guilherme {
+        padding: 15px;
+    }
+
+    .pagina-guilherme section header {
+        padding: 20px;
+    }
+
+    .pagina-guilherme h1 {
+        font-size: 25px;
+    }
+}
 
 /*------------------------------------*/
 /*Gustavo*/
