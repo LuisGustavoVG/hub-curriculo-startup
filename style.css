@@ -381,6 +381,11 @@ hr.linha-horizontal {
 .escopo-samuel h2{
     text-align: center;
     font-size: 20pt ;
+    
+    color: #246782;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #8fd9f2;
+    margin-bottom: 20px;
 }
 
         /* Titulo */
@@ -406,6 +411,10 @@ hr.linha-horizontal {
     background-color: #c4e8f6;
     border: 2px solid #8fd9f2;
     border-radius: 20px;
+    line-height: 25px;
+
+    box-shadow:  0 5px 15px rgba(40, 100, 130, 0.12);
+
 }
 
    /* Formação, Cursos, Habilidades e Outros */
@@ -421,6 +430,8 @@ hr.linha-horizontal {
     border:2px solid #8fd9f2;
     border-radius: 20px;
     width: 70%;
+
+    box-shadow:  0 5px 15px rgba(40, 100, 130, 0.12);
 }
 
     /* Listas */
@@ -447,14 +458,33 @@ hr.linha-horizontal {
    /* Rodape */
 
    #rodape-samuel {
-    margin: auto;
+    margin: 40px auto;
     text-align: center;
 
-    background-color: #c4e8f6;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: auto;
+    box-shadow: none;
+    }
 
-    border:2px solid #8fd9f2;
-    border-radius: 20px;
-    width: 20%;
+   .escopo-samuel #rodape-samuel a {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 2px solid #5caecb;
+    border-radius: 10px;
+
+    color: #246782;
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s;
+
+   }
+
+   .escopo-samuel #rodape-samuel a:hover {
+    background-color: #8fd9f2;
+    color: #16465c;
    }
 
 
