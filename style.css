@@ -1,5 +1,111 @@
 /*index*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fa;
+    color: #333;
+}
+
+header {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #dbe4f0;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #14213d;
+    margin-bottom: 15px;
+}
+
+section p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #14213d;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f0f4fa;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px 6px;
+    }
+}
+
 /*------------------------------------*/
 /*Daniel*/
 
@@ -8,6 +114,45 @@
 
 /*------------------------------------*/
 /*Guilherme*/
+.pagina-guilherme {
+    background-color: #EAF0F6;
+}
+.pagina-guilherme header{
+    background-color: #d3e1f0;
+    height: 220px;
+    
+}
+.pagina-guilherme h1{
+    background-color: #9cc4e9;
+    height: 50px;
+    color: #172B4D;
+}
+
+.pagina-guilherme h2{
+    color: #172B4D;
+}
+
+hr.linha-horizontal {
+    border: none;
+    height: 0px;
+    background-color: #90b6eb;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+
+    .pagina-guilherme {
+        padding: 15px;
+    }
+
+    .pagina-guilherme section header {
+        padding: 20px;
+    }
+
+    .pagina-guilherme h1 {
+        font-size: 25px;
+    }
+}
 
 /*------------------------------------*/
 /*Gustavo*/
@@ -118,75 +263,50 @@
 
 /*------------------------------------*/
 /*Kelly*/
+.pagina-kelly{
+    background-color: #f6eef8;
+    font-family: Arial, sans-serif;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+}
 
+.pagina-kelly h1{
+    color: #7b2d8e;
+    font-size: 32px;
+    text-align: center;
+}
+
+.pagina-kelly h2{
+    color: #7b2d8e;
+    font-size: 22px;
+    border-bottom: 2px solid #e2c6ea;
+    padding-bottom: 10px;
+}
+
+.pagina-kelly li {
+    color: #444444;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.pagina-kelly a {
+    display: inline-block;
+    background-color: #7b2d8e;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.pagina-kelly a:hover {
+    background-color: #5a1f69; 
+}
 
 /*------------------------------------*/
 /*Matheus*/
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f7f6;
-    color: #333;
-    margin: 0;
-    padding: 20px;
-}
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-header {
-    text-align: center;
-    border-bottom: 2px solid #28a745;
-    padding-bottom: 20px;
-    margin-bottom: 25px;
-}
-header h1 {
-    margin: 0 0 10px 0;
-    color: #28a745;
-    font-size: 2.5em;
-}
-header p {
-    margin: 5px 0;
-    color: #666;
-}
-.section {
-    margin-bottom: 30px;
-}
-.section-title {
-    font-size: 1.5em;
-    color: #28a745;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-.highlight {
-    background-color: #e8f5e9;
-    border-left: 4px solid #28a745;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 0 4px 4px 0;
-}
-.skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 0;
-    list-style: none;
-}
-.skills-list li {
-    background: #e8f5e9;
-    color: #2e7d32;
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 0.9em;
-    border: 1px solid #c8e6c9;
-}
+
 /*------------------------------------*/
 /*Samuel*/
 
