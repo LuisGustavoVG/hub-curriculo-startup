@@ -109,29 +109,39 @@ footer {
 /*------------------------------------*/
 /*Daniel*/
 .pagina-daniel {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
   --cor-principal: #1f4e79;
-  padding: 20px;
+  --cor-escura: #14213d;
+  --cor-link-escuro: #8fd0ff;
+  --cor-texto: #2b2b2b;
+  --cor-fundo: #f3f6fa;
+  --cor-etiqueta: #e6eef7;
+  --cor-borda: #d6e2ef;
+
+  font-family: Arial, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
   line-height: 1.6;
 }
-.pagina-daniel main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
+/* Cabeçalho */
 .pagina-daniel header {
-  text-align: left;
+  text-align: center;
+  padding: 20px 20px 36px;
   border-bottom: none;
 }
 
 .pagina-daniel header h1 {
-  color: var(--cor-principal);
+  color: #ffffff;
   text-align: center;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  margin: 28px 0 14px;
 }
-.pagina-daniel main h2 {
-  color: var(--cor-principal);
+
+/* Menu */
+.pagina-daniel nav {
+  background: none;
+  padding: 0;
+  text-align: left;
 }
 
 .pagina-daniel header nav ul {
@@ -142,26 +152,142 @@ footer {
   padding: 0;
 }
 
-.pagina-daniel nav {
-  background-color: var(--cor-principal);
-  padding: 10px;
-  border-radius: 8px;
-}
-
 .pagina-daniel nav a {
-  color: white;
+  display: inline-block;
+  padding: 6px 16px;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
 }
 
 .pagina-daniel nav a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+}
+
+.pagina-daniel a:focus-visible {
+  outline: 3px solid #ffd166;
+  outline-offset: 3px;
+}
+
+/* Contatos */
+.pagina-daniel header > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 28px;
+  list-style: none;
+  padding: 0;
+  color: #dbe4f0;
+}
+
+.pagina-daniel header > ul a {
+  color: var(--cor-link-escuro);
+}
+
+.pagina-daniel header > ul a:hover {
   text-decoration: underline;
 }
 
-.pagina-daniel footer{
+/* Conteúdo */
+.pagina-daniel main {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+.pagina-daniel main section {
+  padding: 28px;
+  border-left: 4px solid var(--cor-principal);
+}
+
+.pagina-daniel main h2 {
+  color: var(--cor-principal);
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--cor-borda);
+}
+
+.pagina-daniel main h3 {
+  color: var(--cor-escura);
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.pagina-daniel main p {
+  max-width: 70ch;
+}
+
+/* Listas comuns (Experiência) */
+.pagina-daniel main ul {
+  padding-left: 22px;
+}
+
+.pagina-daniel main li {
+  margin-bottom: 8px;
+}
+
+/* Competências e Soft Skills como etiquetas */
+.pagina-daniel .competencias ul,
+.pagina-daniel .soft-skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.pagina-daniel .competencias li,
+.pagina-daniel .soft-skills li {
+  margin: 0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+
+.pagina-daniel .competencias li {
+  background-color: var(--cor-principal);
+  color: #ffffff;
+}
+
+.pagina-daniel .soft-skills li {
+  background-color: var(--cor-etiqueta);
+  color: var(--cor-escura);
+  border: 1px solid var(--cor-borda);
+}
+
+/* Rodapé */
+.pagina-daniel footer {
   text-align: center;
   padding: 20px;
-  border-top: 1px solid #ccc;
+  margin-top: 48px;
+  border-top: none;
+  font-size: 0.9rem;
+}
+
+/* Celular */
+@media (max-width: 600px) {
+  .pagina-daniel header {
+    padding: 16px 16px 28px;
+  }
+
+  .pagina-daniel main {
+    margin: 20px auto;
+    padding: 0 12px;
+  }
+
+  .pagina-daniel main section {
+    padding: 20px;
+  }
+
+  .pagina-daniel header > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
 }
 /*------------------------------------*/
 /*Giulian*/
