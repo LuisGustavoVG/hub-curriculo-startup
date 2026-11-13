@@ -360,33 +360,7 @@ hr.linha-horizontal {
 
 /*------------------------------------*/
 /*Matheus*/
-# Currículo matheus oliveira 
-curriculo_html = """
-<div class="curriculo-container" style="
-    font-family: 'Segoe UI', Arial, sans-serif;
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 25px;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    color: #2d3748;
-">
-    <h2 style="margin: 0 0 5px 0; color: #1a365d; font-size: 2rem;">Matheus Oliveira</h2>
-    <p style="margin: 5px 0 15px 0; color: #e53e3e; font-size: 1.3rem; font-weight: bold;">Idade: 18 anos</p>
-    
-    <hr style="border: 0; border-top: 1px solid #e2e8f0; margin-bottom: 20px;">
-    
-    <div style="margin-bottom: 20px;">
-        <h3 style="margin: 0 0 8px 0; color: #2b6cb0; font-size: 1.2rem;">Objetivo Profissional</h3>
-        <p style="margin: 0; line-height: 1.5;">Busco ingressar no mercado de trabalho em busca de minha primeira oportunidade profissional. Possuo muita vontade de aprender e determinação para contribuir com os objetivos da organização.</p>
-    </div>
-    
-    <div style="margin-bottom: 20px;">
-        <h3 style="margin: 0 0 8px 0; color: #2b6cb0; font-size: 1.2rem;">Experiência</h3>
-        <p style="margin: 0; color: #718096; font-style: italic;">Sem experiência profissional anterior (Em busca do primeiro emprego).</p>
-    </div>
+
 /*------------------------------------*/
 /*Samuel*/
 
