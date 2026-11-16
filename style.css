@@ -1,0 +1,623 @@
+/*index*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fa;
+    color: #333;
+}
+
+header {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #dbe4f0;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #14213d;
+    margin-bottom: 15px;
+}
+
+section p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #14213d;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f0f4fa;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px 6px;
+    }
+}
+
+/*------------------------------------*/
+/*Daniel*/
+.pagina-daniel {
+  --cor-principal: #1f4e79;
+  --cor-escura: #14213d;
+  --cor-link-escuro: #8fd0ff;
+  --cor-texto: #2b2b2b;
+  --cor-fundo: #f3f6fa;
+  --cor-etiqueta: #e6eef7;
+  --cor-borda: #d6e2ef;
+
+  font-family: Arial, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+.pagina-daniel header {
+  text-align: center;
+  padding: 20px 20px 36px;
+  border-bottom: none;
+}
+
+.pagina-daniel header h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  margin: 28px 0 14px;
+}
+
+/* Menu */
+.pagina-daniel nav {
+  background: none;
+  padding: 0;
+  text-align: left;
+}
+
+.pagina-daniel header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.pagina-daniel nav a {
+  display: inline-block;
+  padding: 6px 16px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+}
+
+.pagina-daniel nav a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+}
+
+.pagina-daniel a:focus-visible {
+  outline: 3px solid #ffd166;
+  outline-offset: 3px;
+}
+
+/* Contatos */
+.pagina-daniel header > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 28px;
+  list-style: none;
+  padding: 0;
+  color: #dbe4f0;
+}
+
+.pagina-daniel header > ul a {
+  color: var(--cor-link-escuro);
+}
+
+.pagina-daniel header > ul a:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo */
+.pagina-daniel main {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+.pagina-daniel main section {
+  padding: 28px;
+  border-left: 4px solid var(--cor-principal);
+}
+
+.pagina-daniel main h2 {
+  color: var(--cor-principal);
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--cor-borda);
+}
+
+.pagina-daniel main h3 {
+  color: var(--cor-escura);
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.pagina-daniel main p {
+  max-width: 70ch;
+}
+
+/* Listas comuns (Experiência) */
+.pagina-daniel main ul {
+  padding-left: 22px;
+}
+
+.pagina-daniel main li {
+  margin-bottom: 8px;
+}
+
+/* Competências e Soft Skills como etiquetas */
+.pagina-daniel .competencias ul,
+.pagina-daniel .soft-skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.pagina-daniel .competencias li,
+.pagina-daniel .soft-skills li {
+  margin: 0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+
+.pagina-daniel .competencias li {
+  background-color: var(--cor-principal);
+  color: #ffffff;
+}
+
+.pagina-daniel .soft-skills li {
+  background-color: var(--cor-etiqueta);
+  color: var(--cor-escura);
+  border: 1px solid var(--cor-borda);
+}
+
+/* Rodapé */
+.pagina-daniel footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 48px;
+  border-top: none;
+  font-size: 0.9rem;
+}
+
+/* Celular */
+@media (max-width: 600px) {
+  .pagina-daniel header {
+    padding: 16px 16px 28px;
+  }
+
+  .pagina-daniel main {
+    margin: 20px auto;
+    padding: 0 12px;
+  }
+
+  .pagina-daniel main section {
+    padding: 20px;
+  }
+
+  .pagina-daniel header > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+}
+/*------------------------------------*/
+/*Giulian*/
+
+/*------------------------------------*/
+/*Guilherme*/
+.pagina-guilherme {
+    background-color: #EAF0F6;
+}
+.pagina-guilherme header{
+    background-color: #d3e1f0;
+    height: 220px;
+    
+}
+.pagina-guilherme h1{
+    background-color: #9cc4e9;
+    height: 50px;
+    color: #172B4D;
+}
+
+.pagina-guilherme h2{
+    color: #172B4D;
+}
+
+hr.linha-horizontal {
+    border: none;
+    height: 0px;
+    background-color: #90b6eb;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+
+    .pagina-guilherme {
+        padding: 15px;
+    }
+
+    .pagina-guilherme section header {
+        padding: 20px;
+    }
+
+    .pagina-guilherme h1 {
+        font-size: 25px;
+    }
+}
+
+/*------------------------------------*/
+/*Gustavo*/
+.pagina-gustavo {
+    background-color: #dceefa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Blocos brancos */
+
+.pagina-gustavo .container {
+    max-width: 850px;
+    margin: auto;
+}
+
+/* Cada seção do currículo */
+
+.pagina-gustavo section,
+.pagina-gustavo header {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Nome */
+
+.pagina-gustavo h1 {
+    color: #176b87;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Títulos das seções */
+
+.pagina-gustavo h2 {
+    color: #176b87;
+    font-size: 22px;
+    border-bottom: 2px solid #dceefa;
+    padding-bottom: 10px;
+}
+
+/* Textos */
+
+.pagina-gustavo p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Listas */
+
+.pagina-gustavo li {
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+/* Links */
+
+.pagina-gustavo a {
+    color: #176b87;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pagina-gustavo a:hover {
+    color: #0b4055;
+    text-decoration: underline;
+}
+
+/* Botão de voltar */
+
+.pagina-gustavo .voltar {
+    display: inline-block;
+    background-color: #176b87;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.pagina-gustavo .voltar:hover {
+    background-color: #0b4055;
+    text-decoration: none;
+}
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+
+    .pagina-gustavo {
+        padding: 15px;
+    }
+
+    .pagina-gustavo section,
+    .pagina-gustavo header {
+        padding: 20px;
+    }
+
+    .pagina-gustavo h1 {
+        font-size: 25px;
+    }
+}
+
+/*------------------------------------*/
+/*Kelly*/
+.pagina-kelly{
+    background-color: #f6eef8;
+    font-family: Arial, sans-serif;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.pagina-kelly h1{
+    color: #7b2d8e;
+    font-size: 32px;
+    text-align: center;
+}
+
+.pagina-kelly h2{
+    color: #7b2d8e;
+    font-size: 22px;
+    border-bottom: 2px solid #e2c6ea;
+    padding-bottom: 10px;
+}
+
+.pagina-kelly li {
+    color: #444444;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.pagina-kelly a {
+    display: inline-block;
+    background-color: #7b2d8e;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.pagina-kelly a:hover {
+    background-color: #5a1f69; 
+}
+
+/*------------------------------------*/
+/*Matheus*/
+
+/*------------------------------------*/
+/*Samuel*/
+
+    /*Escopo Pagina*/
+
+.escopo-samuel {
+    background-color: #e1eff4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.escopo-samuel h1{
+    text-align: center;
+    font-size: 30pt ;
+    color: #000000;
+}
+
+.escopo-samuel h2{
+    text-align: center;
+    font-size: 20pt ;
+    
+    color: #246782;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #8fd9f2;
+    margin-bottom: 20px;
+}
+
+        /* Titulo */
+
+.escopo-samuel #titulo-cu{
+    text-align: center;
+    font-size: 20px;
+    background-color: transparent;
+    color: #000000;
+    padding: 0;
+    box-shadow: none;
+}
+
+    /* Cabeçalho */
+
+.escopo-samuel #cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 50px auto;
+    padding: 30px;
+    font-size: 12pt;
+    background-color: #c4e8f6;
+    border: 2px solid #8fd9f2;
+    border-radius: 20px;
+    line-height: 25px;
+
+    box-shadow:  0 5px 15px rgba(40, 100, 130, 0.12);
+
+}
+
+   /* Formação, Cursos, Habilidades e Outros */
+
+.escopo-samuel #formacao-samuel,
+.escopo-samuel #cursos-samuel,
+.escopo-samuel #skills-samuel,
+.escopo-samuel #outros-samuel {
+    margin: 70px auto;    
+    background-color: #c4e8f6;
+    padding: 25px;
+    font-size: 12pt;
+    border:2px solid #8fd9f2;
+    border-radius: 20px;
+    width: 70%;
+
+    box-shadow:  0 5px 15px rgba(40, 100, 130, 0.12);
+}
+
+    /* Listas */
+ 
+ .escopo-samuel ul {
+    padding-left: 20px;
+ }   
+
+    /* Espaços entre as linas */
+
+.escopo-samuel #formacao-samuel li {
+    margin-bottom: 10px;
+}
+
+.escopo-samuel #cursos-samuel,
+.escopo-samuel #outros-samuel {
+    line-height: 40px;
+}
+
+.escopo-samuel #skills-samuel {
+    line-height: 30px;
+}
+
+   /* Rodape */
+
+   #rodape-samuel {
+    margin: 40px auto;
+    text-align: center;
+
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: auto;
+    box-shadow: none;
+    }
+
+   .escopo-samuel #rodape-samuel a {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 2px solid #5caecb;
+    border-radius: 10px;
+
+    color: #246782;
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s;
+
+   }
+
+   .escopo-samuel #rodape-samuel a:hover {
+    background-color: #8fd9f2;
+    color: #16465c;
+   }
+
+
+
+
+
+/*------------------------------------*/
+/*Thiago*/
+
+/*------------------------------------*/
